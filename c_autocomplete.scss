@@ -1,0 +1,28 @@
+.autocomplete-pic{
+  position: relative;
+  .autocomplete-list{
+    width: 100%;
+    background: white;
+    position: absolute;
+    z-index: 2;
+    height: auto;
+    max-height: 400px;
+    box-shadow: 0 4px 6px -6px #222;
+    overflow-y: scroll;
+    cursor: pointer;
+    li{
+      padding: 3px 0px;
+      img{
+        width: 50px;
+      }
+      span{
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        padding-left: 10px;
+      }
+    }
+  }
+}
